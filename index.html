@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reddy Sekhar | DevOps Engineer Portfolio</title>
+    <meta name="description"
+        content="Premium portfolio of Reddy Sekhar — DevOps Engineer and ML Enthusiast showcasing skills, projects, achievements, and contact details." />
+    <meta name="keywords" content="DevOps portfolio, AWS, Docker, Kubernetes, Terraform, Python, ML Enthusiast" />
+    <meta name="author" content="Reddy Sekhar" />
+    <meta property="og:title" content="Reddy Sekhar | DevOps Engineer Portfolio" />
+    <meta property="og:description"
+        content="Production-ready portfolio with projects, skills, achievements, and contact section." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop stop-color='%234f8cff'/%3E%3Cstop offset='1' stop-color='%238c5bff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Ctext x='50%25' y='56%25' text-anchor='middle' font-size='28' fill='white' font-family='Arial, sans-serif'%3ERS%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;700;800&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="loader" id="loader" aria-hidden="true">
+        <div class="loader-ring"></div>
+    </div>
+    <!-- ==================================== nav bar =========================================== -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#hero">Sompalli ReddySekhar<span class="accent">.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-2" id="navLinks">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <button class="theme-toggle ms-lg-3" id="themeToggle" aria-label="Toggle dark mode">
+                    <i class="bi bi-moon-stars-fill"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!--========================== main : Primary Content of the page unique to document ============================ -->
+    <main>
+        <!-- ========================= Hero Section =============================== -->
+        <section id="hero" class="hero-section d-flex align-items-center">
+            <div class="container">
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-7" data-animate>
+                        <p class="eyebrow">DevOps Engineer • ML Enthusiast</p>
+                        <h1 class="display-4 fw-bold">Hi, I'm Reddy Sekhar</h1>
+                        <h2 class="hero-role">
+                            I build scalable systems as a
+                            <span id="typingText" class="accent-text"></span>
+                        </h2>
+                        <p class="hero-copy">
+                            I design reliable cloud infrastructure, automate deployments, and ship high-impact products
+                            with clean engineering practices.
+                        </p>
+                        <div class="d-flex flex-wrap gap-3 mt-4">
+                            <a class="btn btn-premium" href="#projects">View Projects</a>
+                            <a class="btn btn-outline-premium"
+                                href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+                                download>Download Resume</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 text-center" data-animate>
+                        <div class="profile-card mx-auto">
+                            <img src="media/srs.png" alt="Professional portrait" class="img-fluid profile-image"
+                                loading="lazy" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ============================ About Section ====================================== -->
+        <section id="about" class="section-padding">
+            <div class="container">
+                <div class="section-heading" data-animate>
+                    <p class="eyebrow">About Me</p>
+                    <h3>Building cloud-native products with performance and reliability in mind.</h3>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6" data-animate>
+                        <div class="glass-card h-100">
+                            <p>
+                                I'm a DevOps-focused engineer with practical experience in CI/CD pipelines,
+                                infrastructure as code, and cloud optimization. I enjoy solving engineering bottlenecks
+                                that improve deployment velocity and system uptime.
+                            </p>
+                            <p>
+                                My career goal is to work at the intersection of <strong>DevOps + ML</strong>, enabling
+                                ML systems with robust, automated, and production-grade platforms.
+                            </p>
+                            <a class="btn btn-premium btn-sm mt-2"
+                                href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+                                download>Download Resume</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-animate>
+                        <div class="resume-frame glass-card p-0 overflow-hidden">
+                            <iframe title="Resume Preview"
+                                src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
+                                loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ================== Skills ===================================== -->
+        <section id="skills" class="section-padding section-alt">
+            <div class="container">
+                <div class="section-heading" data-animate>
+                    <p class="eyebrow">What I Know</p>
+                    <h3>Modern cloud, DevOps, backend and web engineering stack.</h3>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-4" data-animate>
+                        <div class="skill-card">
+                            <h4><i class="bi bi-code-square"></i> Programming</h4>
+                            <p>Python, Core Java</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4" data-animate>
+                        <div class="skill-card">
+                            <h4><i class="bi bi-database"></i> Database</h4>
+                            <p>MySQL</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4" data-animate>
+                        <div class="skill-card">
+                            <h4><i class="bi bi-cloud"></i> Cloud</h4>
+                            <p>AWS: EC2, S3, RDS, Lambda, EKS, ECR, CloudWatch, SNS, SQS</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6" data-animate>
+                        <div class="skill-card">
+                            <h4><i class="bi bi-gear-wide-connected"></i> DevOps</h4>
+                            <p>Linux, Git, GitHub, Jenkins, Docker, Kubernetes, Terraform, Ansible</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6" data-animate>
+                        <div class="skill-card">
+                            <h4><i class="bi bi-window-stack"></i> Web</h4>
+                            <p>Django, DRF, HTML, CSS, JavaScript</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ============================ Projects ================================== -->
+        <section id="projects" class="section-padding">
+            <div class="container">
+                <div class="section-heading" data-animate>
+                    <p class="eyebrow">What I Built</p>
+                    <h3>Featured projects focused on impact, scale, and maintainability.</h3>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4" data-animate>
+                        <article class="project-card featured">
+                            <span class="badge text-bg-primary">Featured</span>
+                            <h4>AutoDeploy Pipeline Platform</h4>
+                            <p><strong>Problem:</strong> Slow and inconsistent deployments across environments.</p>
+                            <p><strong>Solution:</strong> Built Jenkins + Docker + Kubernetes CI/CD pipelines with
+                                rollback and health checks.</p>
+                            <p><strong>Tech:</strong> Jenkins, Docker, Kubernetes, Terraform, AWS EKS</p>
+                            <div class="project-links">
+                                <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+                                <a href="https://example.com" target="_blank" rel="noreferrer">Live Demo</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-4" data-animate>
+                        <article class="project-card featured">
+                            <span class="badge text-bg-primary">Featured</span>
+                            <h4>Cloud Cost Optimizer</h4>
+                            <p><strong>Problem:</strong> Untracked AWS spend due to idle resources.</p>
+                            <p><strong>Solution:</strong> Developed monitoring dashboards and automation scripts to
+                                optimize usage patterns.</p>
+                            <p><strong>Tech:</strong> Python, AWS Lambda, CloudWatch, SNS, Boto3</p>
+                            <div class="project-links">
+                                <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+                                <a href="https://example.com" target="_blank" rel="noreferrer">Live Demo</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-4" data-animate>
+                        <article class="project-card">
+                            <h4>ML Model Deployment API</h4>
+                            <p><strong>Problem:</strong> Difficulty shipping ML models with consistent runtime setup.
+                            </p>
+                            <p><strong>Solution:</strong> Containerized DRF API with CI validation and scalable
+                                deployment architecture.</p>
+                            <p><strong>Tech:</strong> Django, DRF, Docker, GitHub Actions, AWS EC2</p>
+                            <div class="project-links">
+                                <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+                                <a href="https://example.com" target="_blank" rel="noreferrer">Live Demo</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ============================= Achivements ================================= -->
+        <section id="achievements" class="section-padding section-alt">
+            <div class="container">
+                <div class="section-heading" data-animate>
+                    <p class="eyebrow">Proof</p>
+                    <h3>Milestones that demonstrate consistency and execution.</h3>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-3" data-animate>
+                        <div class="achievement-card"><i class="bi bi-patch-check"></i>
+                            <h4>AWS Certification</h4>
+                            <p>Completed cloud-focused certification validating production AWS skills.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3" data-animate>
+                        <div class="achievement-card"><i class="bi bi-trophy"></i>
+                            <h4>Hackathon Finalist</h4>
+                            <p>Built a scalable DevOps prototype under tight deadlines.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3" data-animate>
+                        <div class="achievement-card"><i class="bi bi-briefcase"></i>
+                            <h4>DevOps Internship</h4>
+                            <p>Implemented pipeline and deployment automation improving release speed.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3" data-animate>
+                        <div class="achievement-card"><i class="bi bi-graph-up-arrow"></i>
+                            <h4>Deployment Milestone</h4>
+                            <p>Shipped multiple production updates with reliable uptime metrics.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =============================== Hobbies ============================================ -->
+        <section id="hobbies" class="section-padding">
+            <div class="container">
+                <div class="section-heading" data-animate>
+                    <p class="eyebrow">Personality</p>
+                    <h3>What keeps my creativity and discipline sharp.</h3>
+                </div>
+                <div class="row g-3">
+                    <div class="col-6 col-md-4 col-lg-2" data-animate>
+                        <div class="hobby-card"><i class="bi bi-book"></i><span>Reading</span></div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2" data-animate>
+                        <div class="hobby-card"><i class="bi bi-controller"></i><span>Gaming</span></div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2" data-animate>
+                        <div class="hobby-card"><i class="bi bi-camera"></i><span>Photography</span></div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2" data-animate>
+                        <div class="hobby-card"><i class="bi bi-music-note-beamed"></i><span>Music</span></div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2" data-animate>
+                        <div class="hobby-card"><i class="bi bi-airplane"></i><span>Travel</span></div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-2" data-animate>
+                        <div class="hobby-card"><i class="bi bi-bicycle"></i><span>Cycling</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =============================== Contact Details ======================================= -->
+        <section id="contact" class="section-padding section-alt">
+            <div class="container">
+                <div class="contact-box text-center" data-animate>
+                    <p class="eyebrow">Contact</p>
+                    <h3>Let's work together.</h3>
+                    <p>I’m open to DevOps, Cloud, and Platform Engineering opportunities.</p>
+                    <div class="social-links">
+                        <a href="mailto:reddy@example.com" aria-label="Gmail"><i class="bi bi-envelope-fill"></i></a>
+                        <a href="tel:+919999999999" aria-label="Phone"><i class="bi bi-telephone-fill"></i></a>
+                        <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i
+                                class="bi bi-linkedin"></i></a>
+                        <a href="https://instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="https://wa.me/918333958264" target="_blank" rel="noreferrer" aria-label="WhatsApp"><i
+                                class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <button id="scrollTopBtn" aria-label="Scroll to top"><i class="bi bi-arrow-up"></i></button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
